@@ -115,4 +115,28 @@ python consulta_e_exporta.py
 
 O resultado será salvo em `resultado_consulta.csv`.
 
+---
+
+## Scripts Utilitários
+
+Todos os scripts auxiliares estão agora na pasta `scripts/`:
+- `atualiza_tudo.py`: Automatiza todo o pipeline de atualização de dados.
+- `converter_e_revisar_excel.py`: Converte arquivos Excel para CSV e revisa colunas.
+- `importa_baseunificada_sqlite.py`: Importa o CSV unificado para o banco SQLite.
+- `consulta_e_exporta.py`: Consulta e exporta dados filtrados do banco.
+- `backup_db.py`: Faz backup do banco de dados.
+- `cria_issues_github.py`: Cria issues automaticamente no GitHub a partir de um arquivo markdown.
+
+Para rodar qualquer script, use:
+```bash
+python scripts/nome_do_script.py
+```
+
+---
+
+## Segurança
+- **Nunca deixe tokens de acesso salvos em scripts versionados.**
+- O script `cria_issues_github.py` agora pede o token ao rodar.
+- Adicione variáveis sensíveis apenas em tempo de execução.
+
 --- 
