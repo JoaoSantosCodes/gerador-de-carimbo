@@ -1,3 +1,9 @@
+[![Build Status](https://github.com/JoaoSantosCodes/gerador-de-carimbo/actions/workflows/python-app.yml/badge.svg)](https://github.com/JoaoSantosCodes/gerador-de-carimbo/actions)
+![Python](https://img.shields.io/badge/python-3.11%2B-blue)
+[![Docs](https://img.shields.io/badge/docs-online-blue)](https://joaosantoscodes.github.io/gerador-de-carimbo/)
+[![Changelog](https://img.shields.io/badge/changelog-md-blue)](CHANGELOG.md)
+[![Contribua](https://img.shields.io/badge/contribua-Guia%20de%20Contribui%C3%A7%C3%A3o-brightgreen)](CONTRIBUTING.md)
+
 # Gerador de Carimbo — Documentação do Projeto
 
 ## Visão Geral

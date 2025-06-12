@@ -20,7 +20,9 @@ streamlit run app.py
 
 ![Print da interface do app](./print-interface.png)
 
-*Adicione aqui um print da tela principal do app para facilitar o onboarding de novos usuários.*
+*Para adicionar um print, salve uma imagem da tela principal do app como `print-interface.png` nesta pasta (`/docs`).*
+
+*Exemplos visuais ajudam novos usuários a entender rapidamente o funcionamento do sistema.*
 
 ---
 
