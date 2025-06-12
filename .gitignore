@@ -40,4 +40,27 @@ ENV/
 
 # Local development settings
 .env
-.env.local 
+.env.local
+
+# Ambiente virtual
+.venv/
+__pycache__/
+*.pyc
+
+# Banco de dados
+carimbos.db
+
+# Dados gerados
+CSV/*.csv
+!CSV/*.py
+
+# Arquivos de exportação
+resultado_consulta.csv
+
+# Arquivos temporários
+*.tmp
+*.log
+
+# Configurações do sistema
+.DS_Store
+Thumbs.db 

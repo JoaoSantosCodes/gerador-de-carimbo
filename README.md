@@ -79,3 +79,40 @@ O Gerador de Carimbo é um sistema que:
 
 ## Teste de Atualização
 - Teste de commit realizado em 2024 
+
+---
+
+## Automação do Fluxo de Atualização
+
+Para atualizar toda a base de dados a partir dos arquivos Excel:
+
+1. Coloque os arquivos Excel atualizados na pasta `Excel/`.
+2. Execute o comando abaixo:
+
+```bash
+python atualiza_tudo.py
+```
+
+Isso irá:
+- Converter os Excels para CSV
+- Unificar as planilhas
+- Importar tudo para o banco SQLite (`carimbos.db`)
+
+O app já estará pronto para uso com os dados mais recentes!
+
+---
+
+## Consultando e Exportando Dados
+
+Para consultar e exportar dados filtrados da base para CSV:
+
+1. Edite os filtros no início do arquivo `consulta_e_exporta.py` (exemplo: cidade, operadora, status).
+2. Execute:
+
+```bash
+python consulta_e_exporta.py
+```
+
+O resultado será salvo em `resultado_consulta.csv`.
+
+--- 

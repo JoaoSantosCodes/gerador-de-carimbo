@@ -27,8 +27,9 @@ if pagina == 'Gerar Carimbo':
 
     @st.cache_data
     def carregar_dados():
-        sep = ';'
-        df = pd.read_csv(CSV_UNIFICADA, sep=sep, engine='python')
+        conn = sqlite3.connect(DB_PATH)
+        df = pd.read_sql_query('SELECT * FROM base_unificada', conn)
+        conn.close()
         return df
 
     def safe_str(val):
