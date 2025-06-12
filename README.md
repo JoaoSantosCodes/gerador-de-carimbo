@@ -75,4 +75,7 @@ O Gerador de Carimbo é um sistema que:
 - Adicionar autenticação de usuário.
 - Permitir upload de novas planilhas via interface.
 - Gerar carimbo em PDF.
-- Mais filtros e gráficos nos relatórios. 
+- Mais filtros e gráficos nos relatórios.
+
+## Teste de Atualização
+- Teste de commit realizado em 2024 
